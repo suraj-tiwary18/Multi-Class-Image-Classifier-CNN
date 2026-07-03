@@ -4,7 +4,7 @@ from tensorflow.keras.preprocessing import image
 
 model = load_model('mult_object_classifier.keras')
 
-img = image.load_img("Cat03.jpg", target_size=(150,150))
+img = image.load_img("PATOYS-Batman-Licensed-Electric-Ride-On-Bike-for-Kids-3-8-Years-Metallic-Black-PATOYS-4276363021_9912_1.jpg", target_size=(150,150))
 
 img_array = image.img_to_array(img)
 
